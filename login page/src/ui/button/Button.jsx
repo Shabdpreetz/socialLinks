@@ -11,19 +11,19 @@ function Button() {
     },
       {
         btnText: "Frontend Mentor",
-        btnLink: "https://github.com",
+        btnLink: "https://www.frontendmentor.io/",
     },
       {
         btnText: "LinkedIn",
-        btnLink: "https://github.com",
+        btnLink: "https://www.linkedin.com/",
     },
       {
         btnText: "Twitter",
-        btnLink: "https://github.com",
+        btnLink: "https://x.com",
     },
     {
         btnText: "Instagram",
-        btnLink: "https://github.com",
+        btnLink: "https://www.instagram.com/",
     },
 ]
 
