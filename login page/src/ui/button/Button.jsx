@@ -11,19 +11,19 @@ function Button() {
     },
       {
         btnText: "Frontend Mentor",
-        btnLink: "https://github.com",
+        btnLink: "https://www.frontendmentor.io/",
     },
       {
         btnText: "LinkedIn",
-        btnLink: "https://github.com",
+        btnLink: "https://www.linkedin.com/",
     },
       {
         btnText: "Twitter",
-        btnLink: "https://github.com",
+        btnLink: "https://x.com",
     },
     {
         btnText: "Instagram",
-        btnLink: "https://github.com",
+        btnLink: "https://www.instagram.com/",
     },
 ]
 
@@ -34,11 +34,11 @@ const handleClick = (url) =>{
   
   return (
 
-    <div className="flex justify-center item-center flex-col gap-4 w-[73%]">
+    <div className="  flex w-auto sm:flex justify-center item-center flex-col  gap-4 ">
         {btnData.map((btn,index) => {
             return <button 
             onClick={() => handleClick(btn.btnLink)}
-            className='h-auto bg-[#333333]  text-white p-2 hover:text-black hover:cursor-pointer   rounded-lg hover:bg-[#c4f72a] font-semibold'>
+            className=' px-18 sm:h-auto hover:bg-[#333333] hover:text-white bg-white text-black dark:bg-[#333333]  dark:text-white p-2  dark:hover:text-black hover:cursor-pointer   rounded-lg dark:hover:bg-[#93f90d] font-semibold'>
                 {btn.btnText}
             </button>
 
